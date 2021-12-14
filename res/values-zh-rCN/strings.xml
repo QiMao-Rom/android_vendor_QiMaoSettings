@@ -17,6 +17,7 @@
     
     <string name="qimao_settings_title">奇猫の小心思</string>
     <string name="qimao_settings_summary">你好,世界!</string>
+    <string name="device_part_title">专属设置</string>
 
     <!-- Statusbar net monitor -->
     <string name="traffic_title">网速显示</string>
