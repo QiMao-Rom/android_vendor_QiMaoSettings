@@ -3,7 +3,9 @@
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
+
           http://www.apache.org/licenses/LICENSE-2.0
+
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -15,5 +17,23 @@
     
     <string name="qimao_settings_title">奇猫の小心思</string>
     <string name="qimao_settings_summary">你好,世界!</string>
+
+    <!-- Statusbar net monitor -->
+    <string name="traffic_title">网速显示</string>
+    <string name="network_traffic">网速显示</string>
+    <string name="network_traffic_location">网速显示的位置</string>
+    <string name="traffic_disabled">竟然不需要?!</string>
+    <string name="traffic_statusbar">显示在状态栏!</string>
+    <string name="traffic_expanded_statusbar">显示在快捷菜单里！</string>
+    <string name="network_traffic_autohide_threshold_title">究竟需要多高的网速(kb/s)才能让你注意</string>
+    <string name="network_traffic_arrow">上下载箭头显示</string>
+    <string name="network_traffic_arrow_summary">你需要什么样的箭头?</string>
+    <string name="network_traffic_type">你要给他们下什么命令？</string>
+    <string name="show_network_traffic_combined">上下载一起干</string>
+    <string name="show_network_traffic_dynamic">无事就消失</string>
+    <string name="show_network_traffic_up">只留上传君</string>
+    <string name="show_network_traffic_down">只留下载君</string>
+    <string name="show_network_traffic_all">两个一起加班吧</string>
+    <string name="nettraf_font_size">只显示一种网速时的字体大小</string>
 
 </resources>
