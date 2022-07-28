@@ -14,11 +14,21 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/qimao_settings_title" >
+     
+     <Preference
+          android:key="traffic"
+          android:fragment="com.qimao.exsettings.fragments.Traffic"
+          android:icon="@drawable/ic_traffic"
+          android:title="@string/traffic_title" />
 
-          <Preference
-             android:key="traffic"
-             android:fragment="com.qimao.exsettings.fragments.Traffic"
-             android:icon="@drawable/ic_traffic"
-             android:title="@string/traffic_title" />
+    <Preference
+        android:title="@string/game_space_title"
+        android:summary="@string/game_space_summary"
+        android:order="-995">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="io.chaldeaprjkt.gamespace"
+            android:targetClass="io.chaldeaprjkt.gamespace.settings.SettingsActivity" />
+    </Preference>
 
 </PreferenceScreen>

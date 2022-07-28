@@ -36,4 +36,8 @@
     <string name="show_network_traffic_all">两个一起加班吧</string>
     <string name="nettraf_font_size">只显示一种网速时的字体大小</string>
 
+    <!-- Game Space -->
+    <string name="game_space_title">游戏空间</string>
+    <string name="game_space_summary">提升您的游戏体验</string>
+
 </resources>
