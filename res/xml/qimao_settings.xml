@@ -21,6 +21,13 @@
           android:icon="@drawable/ic_traffic"
           android:title="@string/traffic_title" />
 
+    <!-- Statusbar Lyric -->
+    <com.android.settings.custom.preference.SecureSettingSwitchPreference
+        android:key="status_bar_show_lyric"
+        android:title="@string/status_bar_show_lyric_title"
+        android:summary="@string/status_bar_show_lyric_summary"
+        android:defaultValue="true" />
+
     <Preference
         android:title="@string/game_space_title"
         android:summary="@string/game_space_summary"
@@ -31,15 +38,15 @@
             android:targetClass="io.chaldeaprjkt.gamespace.settings.SettingsActivity" />
     </Preference>
 
-        <!-- Device Part -->
-        <Preference
-            android:key="device_part"
-            android:persistent="false"
-            android:title="@string/device_part_title"
-            android:icon="@drawable/ic_settings_device">
-            <intent android:action="android.intent.action.MAIN"
-                 android:targetPackage="org.omnirom.device"
-                 android:targetClass="org.omnirom.device.DeviceSettings"/>
-        </Preference>
+     <!-- Device Part -->
+     <Preference
+         android:key="device_part"
+         android:persistent="false"
+         android:title="@string/device_part_title"
+         android:icon="@drawable/ic_settings_device">
+         <intent android:action="android.intent.action.MAIN"
+              android:targetPackage="org.omnirom.device"
+              android:targetClass="org.omnirom.device.DeviceSettings"/>
+     </Preference>
 
 </PreferenceScreen>

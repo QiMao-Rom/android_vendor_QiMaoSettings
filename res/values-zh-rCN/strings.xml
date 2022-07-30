@@ -41,4 +41,8 @@
     <string name="game_space_title">游戏空间</string>
     <string name="game_space_summary">提升您的游戏体验</string>
 
+    <!-- Status Bar Lyric -->
+    <string name="status_bar_show_lyric_title">状态栏歌词</string>
+    <string name="status_bar_show_lyric_summary">感谢Shelling和AmeChan的贡献~</string>
+
 </resources>
