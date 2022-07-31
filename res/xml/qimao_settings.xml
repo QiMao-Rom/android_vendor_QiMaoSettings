@@ -22,7 +22,7 @@
           android:title="@string/traffic_title" />
 
     <!-- Statusbar Lyric -->
-    <com.android.settings.custom.preference.SecureSettingSwitchPreference
+    <com.qimao.settings.preferences.SecureSettingSwitchPreference
         android:key="status_bar_show_lyric"
         android:title="@string/status_bar_show_lyric_title"
         android:summary="@string/status_bar_show_lyric_summary"
