@@ -27,16 +27,6 @@
         android:summary="@string/status_bar_show_lyric_summary"
         android:defaultValue="true" />
 
-    <Preference
-        android:title="@string/game_space_title"
-        android:summary="@string/game_space_summary"
-        android:order="-995">
-        <intent
-            android:action="android.intent.action.MAIN"
-            android:targetPackage="io.chaldeaprjkt.gamespace"
-            android:targetClass="io.chaldeaprjkt.gamespace.settings.SettingsActivity" />
-    </Preference>
-
      <!-- Device Part -->
      <Preference
          android:key="device_part"
